@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="?attr/colorPrimary">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:id="@+id/icon_image"
+        android:src="@drawable/menu"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/mail"
+        android:text="hedeqing@qq.com"
+        android:textSize="14sp"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_above="@+id/mail"
+        android:text="hedeqing"
+        android:textSize="14sp"
+        android:textColor="#FFF"
+        />
+
+</RelativeLayout>
